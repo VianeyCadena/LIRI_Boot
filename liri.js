@@ -50,7 +50,6 @@ function concertThis(inputUser) {
                 console.log(i);
                 console.log("Name of the Venue: " + concerts[i].venue.name);
                 console.log("Location: " + concerts[i].venue.country + ", " + concerts[i].venue.city);
-                //console.log (concerts[i].datetime)
                 console.log("Date: " + convDateConcert.format("MM/DD/YY"));
             }
         } else {
